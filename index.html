@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+//  comparison operators
+let a = 10;
+let b = "20";
+console.log('a == b:', a == b);   
+console.log('a === b:', a === b);
+console.log('a != b:', a != b);
+console.log('a !== b:', a !== b);
+console.log('a > b:', a > b);     
+console.log('a < b:', a < b);     
+console.log('a >= b:', a >= b);  
+console.log('a <= b:', a <= b);  
+
+//even r odd
+var number = 7;
+var evenOrOdd = (number % 2 === 0) ? 'Even' : 'Odd';
+console.log(evenOrOdd);
+
+//adult r minor
+var age = 16;
+var isAdult = (age >= 18) ? 'Adult' : 'Minor';
+console.log(isAdult);
+
+//grade
+var score = 100;
+var grade = (score >= 90) ? 'A' :(score >= 75) ? 'B' : (score >= 60) ? 'C' : (score >= 45) ? 'D' : 'F';
+console.log(grade);
+
+//temperature
+var temperature = 15;
+var tempCategory = (temperature > 30) ? 'Hot' : (temperature >= 20) ? 'Warm' : (temperature >= 10) ? 'Cool' : 'Cold';
+console.log(tempCategory);
+
+//agegroup
+age = 35;
+var ageGroup = (age <= 12) ? 'Child' :(age <= 19) ? 'Teen' : (age <= 64) ? 'Adult' : 'Senior';
+console.log(ageGroup);
+    </script>
+    
+</body>
+</html>
